@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Google Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|EB+Garamond" rel="stylesheet">
+
+<!-- Bootstrap CSS File -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+<link href="css/style.css" rel="stylesheet">
+<title>Lakewood Triathlon</title>
+
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo">
+				<a href="index.html#home">Lakewood Tri</a>
+			</h1>
+			<i class="fa fa-times-circle menu-close"></i> 
+			<a href="#home" class="smoothscroll">Home</a> 
+			<a href="#about" class="smoothscroll">About</a>
+			<a href="#signup" class="smoothscroll">Signup</a> 
+			<a href="https://www.facebook.com/groups/546850815331828"><i class="fa fa-facebook"></i></a> 
+			<a href="mailto:jimflath@gmail.com?subject:Lakewood Triathlon"><i class="fa fa-envelope"></i></a>
+		</div>
+
+		<!-- Menu button -->
+		<div id="menuToggle">
+			<i class="fa fa-bars"></i>
+		</div>
+	</nav>
+
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+
+	<!-- ========== body SECTION ========== -->
+	<div class="logo">
+		<img class="image-center" src="img/TriLogo.png">
+	</div>
+	<div id="headerwrap">
+		<div class="container">
+
+			<br>
+			
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /headerwrap -->
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="about" name="about"></section>
+	<div id="f">
+		<div class="container">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h3>About The Event</h3>
+				Sunday, September 13th @ 8:30AM<br/><br/>
+
+				This is a self supported sprint triathlon, duathlon and aquabike event that is <span style="text-decoration: underline;">completely un-sanctioned</span> and just for fun.<br/>
+				No medals will be given out, but maybe a shirt if there is enough interest.<br/>
+				It's not even really a competition, other than against yourself.<br/><br/>
+				Event starts, ends, and transitions at The Tanner's in Lakewood.<br/><br/>
+				<nav>
+					<ul class="nav nav-tabs" id="nav-tab" role="tablist">
+						<li class="nav-item active">
+							<a class="nav-link" id="triathlon-tab" data-toggle="tab" href="#triathlon" role="tab" aria-controls="triathlon" aria-selected="true">Triathlon</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="duathlon-tab" data-toggle="tab" href="#duathlon" role="tab" aria-controls="duathlon" aria-selected="false">Duathlon</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="aquabike-tab" data-toggle="tab" href="#aquabike" role="tab" aria-controls="aquabike" aria-selected="false">Aquabike</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade active in" id="triathlon" role="tabpanel" aria-labelledby="triathlon-tab">
+							<p style="font-size: 28px;">Triathlon</p>
+							<a target="_new" href="https://ridewithgps.com/routes/33657295">Swim course</a><br/>500yrd, open water swim<br/>
+							<a target="_new" href="https://ridewithgps.com/routes/33656499"><br/>Bike course</a><br/>12.5 mile, 2 loop route<br/>
+							<a target="_new" href="https://ridewithgps.com/routes/33657328"><br/>Run course</a><br/>2.5 mile run<br/><br/>
+						</div>
+						<div class="tab-pane fade" id="duathlon" role="tabpanel" aria-labelledby="duathlon-tab">
+							<p style="font-size: 28px;">Duathlon</p>
+							<a target="_new" href="https://ridewithgps.com/routes/33657719">1st run</a><br/>1.5 mile run<br/>
+							<a target="_new" href="https://ridewithgps.com/routes/33656499"><br/>Bike course</a><br/>12.5 mile, 2 loop route<br/>
+							<a target="_new" href="https://ridewithgps.com/routes/33657328"><br/>2nd run</a><br/>2.5 mile run<br/>						
+						</div>
+						<div class="tab-pane fade" id="aquabike" role="tabpanel" aria-labelledby="aquabike-tab">
+							<p style="font-size: 28px;">Aquabike</p>
+							<a target="_new" href="https://ridewithgps.com/routes/33657761">Swim course</a><br/>900yrd, open water swim (out and back)<br/>
+							<a target="_new" href="https://ridewithgps.com/routes/33656499"><br/>Bike course</a><br/>12.5 mile, 2 loop route<br/><br/><br/>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<img src="img/ladys-shirt.png"><img src="img/mens-shirt.png">
+		<!-- /container -->
+	</div>
+	<!-- /f -->
+
+	<!-- ========== Signup SECTION ========== -->
+	<section id="signup" name="signup"></section>
+	<div id="f">
+		<div class="container">
+			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDAGOqIQl0_dW8dZAIFIEzUKG83CKL9dDMXa9YIX2W3O1JYw/viewform?embedded=true" width="500" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>		</div>
+		<!-- /container -->
+	</div>
+	<!-- /f -->
+
+	<!-- JavaScript Libraries -->
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/php-mail-form/validate.js"></script>
+	<script src="lib/easing/easing.min.js"></script>
+	
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
