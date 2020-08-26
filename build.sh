@@ -1,4 +1,5 @@
 
 gatsby build
-    git commit -m ""
+    git add .
+    git commit -m "Pushing changes"
     git push -u origin master
